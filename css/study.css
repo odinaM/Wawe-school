@@ -742,12 +742,12 @@ body{
 }
 
 .video-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(0%, -30%);
-    width: 90px;
-    height: auto;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translate(0%, -30%);
+  width: 70px;
+  height: auto;
 }
 
 /*block2*/
@@ -829,61 +829,62 @@ body{
 }
 
 .block-1 {
-  max-width: 425px;
+  max-width: 375px;
   height: 1050px;
   margin: 0 auto;
 }
 
 .main-textInf {
-    max-width: 400px;
-    margin: 0 auto;
+  max-width: 300px;
+  margin: 20px;
 }
 
 .h1-study-main {
     font-size: 22px;
-    width: 400px;
+    width: 350px;
     margin: 15px auto;
     text-align: center;
 }
 
 .p-textInf-main {
     font-size: 13px;
-    width: 370px;
+    width: 300px;
     margin-left: 20px;
     line-height: 24px;
 }
 
 .h1-zitata {
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 40px;
-  margin-bottom: 12px;
+  margin-bottom: 7px;
   margin-top: 20px;
 }
 
 .p-zitata {
   margin-left: 90px;
+  font-size: 10px;
 }
 
 .main-video-urok {
-  width: 400px;
+  width: 370px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
 }
 
 .img-video-urok {
-  width: 360px;
+  width: 320px;
   margin-left: 20px;
   margin-top: 30px;
 }
 
 .video-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-40%, -40%);
-    width: 90px;
-    height: auto;
-}
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  width: 70px;
+  height: auto;}
 
 /*block2*/
 .block2{
@@ -893,8 +894,12 @@ body{
 
 .h1-block2 {
   font-size: 22px;
-  width: 400px;
+  width: 370px;
   text-align: center;
+}
+
+.ul-block2 {
+  width: 370px;
 }
 
 .li-block2 {
@@ -902,32 +907,37 @@ body{
 }
 
 .mini_wawe-block2 {
-  width: 400px;
+  width: 370px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .wawe1 {
-  width: 300px;
+  width: 270px;
   margin-bottom: 20px;
 }
 
 .wawe2{
-  width: 350px;
+  width: 300px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
 }
 
+.wawe3 {
+  width: 320px;
+}
+
+
 .img-wawe1 {
-  width: 300px;
+  width: 270px;
 }
 
 .img-wawe2 {
-  width: 350px;
+  width: 300px;
 }
 .img-wawe3 {
-  width: 400px;
+  width: 320px;
 }
 
 .p-wawe {
@@ -1015,7 +1025,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-17%, -40%);
-    width: 70px;
+    width: 40px;
     height: auto;
 }
 
@@ -1128,15 +1138,15 @@ body{
 }
 
 .h1-zitata {
-  font-size: 18px;
-  margin-left: 25px;
+  font-size: 16px;
+  margin-left: 20px;
   margin-bottom: 12px;
   margin-top: 20px;
 }
 
 .p-zitata {
-  margin-left: 75px;
-  font-size: 12px;
+  margin-left: 70px;
+  font-size: 10px;
 }
 
 .main-video-urok {
@@ -1299,10 +1309,10 @@ body{
 
 .video-button {
     position: absolute;
-    top: 50%;
+    top: 53%;
     left: 50%;
     transform: translate(-33%, -40%);
-    width: 70px;
+    width: 50px;
     height: auto;
 }
 
