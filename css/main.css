@@ -1,0 +1,471 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*header*/
+
+.menu-list{
+  text-decoration: none;
+  display: flex;
+  height: 158px;
+  list-style: none;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-bacground {
+    background-color: #165E78;
+}
+
+.menu-item {
+  font-family: Roboto Condensed;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  text-decoration: underline #00B2A0;
+  text-underline-offset: 10px;
+  cursor: pointer;
+}
+
+.header-span{
+     text-underline-offset: 10px; 
+    text-decoration: underline #00B2A0 2px;
+}
+
+
+.for-bac {
+    background-image: url(../img/bac.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1080px;
+}
+
+input {
+    display: none
+}
+
+
+
+/*main*/
+
+.main {
+    width: 654px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 185px;
+}
+.header-span{
+  text-underline-offset: 5px;
+  text-decoration: underline #00B2A0 2px;
+}
+.h1-main {
+    font-family: Raleway;
+    color: #0D302C;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.6px;
+    font-size: 200px;
+}
+
+.p-main {
+    font-family: Roboto Condensed;
+    color: #000000;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.6px;
+    font-size: 24px;
+}
+
+/*footer*/
+
+.over-footer{
+  display: flex;
+  gap: 263px;
+  padding: 165px 0px;
+  justify-content: center;
+  align-content: center;
+}
+
+.over-footer-logo{
+font-family: Raleway;
+font-weight: 700;
+font-size: 50px;
+line-height: 59px;
+color: #0D302C;
+}
+
+.over-footer-logo img{
+  padding-right: 8px;
+  padding-bottom: 8px;
+  width: 40px;
+  height: 40px;
+}
+
+.li-one,
+.li-two,
+.li-three{
+  font-family: Roboto Condensed;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.6px;
+}
+
+.list li{
+  padding-bottom: 17px;
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+
+.over-footer-li:hover{
+  color: #165E78;
+  cursor: pointer;
+  text-decoration: underline #00B2A0;
+  text-underline-offset: 5px;
+}
+
+.over-footer-li {
+  color: black;
+  text-decoration: none;
+}
+
+.footer{
+  background-color: #165E78;
+  height: 117.8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text{
+  color: white;
+  font-size: 24px;
+  font-family: Roboto Condensed;
+}
+
+/*адаптив main*/
+
+
+
+
+
+/*study.html*/
+
+.block-1 {
+    width: 1550px;
+    display: flex;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+.main-textInf {
+    width: 610px;
+    height: 700px;
+}
+
+.h1-study-main {
+    font-size: 45px;
+    letter-spacing: 0.6px;
+    font-family: Raleway;
+    font-weight: 600;
+    width: 559px;
+}
+
+.p-study-main {
+    color: #00B2A0;
+}
+
+.p-textInf-main {
+    font-size: 14px;
+    font-family: Roboto Condensed;
+    letter-spacing: 0.6px;
+    line-height: 25px;
+    color: #242121;
+    width: 507px;
+    margin-bottom: 50px;
+}
+
+.logo_footer_link {
+  color: #0D302C;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+@media (max-width:1024px) {
+  /*шапка*/
+  .menu-list{
+  height: 158px;
+  gap: 20px;
+}
+
+.menu-item {
+  font-size: 20px;
+}
+
+ /*body*/
+  body{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /*main*/
+.main {
+  max-width: 1024px;
+  margin: 50px auto;
+}
+
+.for-bac {
+  background-image: url(../img/bac1024.png);
+  height: 1080px;
+}
+
+/*footer*/
+.over-footer {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+  }
+
+.over-footer-logo {
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  }
+
+.over-footer-logo img {
+  padding-right: 8px;
+  padding-bottom: 8px;
+  width: 30px; 
+  height: 30px; 
+}
+
+.li-one,
+.li-two,
+.li-three {
+  font-size: 16px; 
+  line-height: 1.3;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+
+.over-footer-li {
+  gap: 17px;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-info img {
+  width: 30px;
+  height: 23px; 
+  }
+}
+
+@media (max-width:768px) {
+  /*стили к шапке*/
+body{
+  width: 100%;
+}
+
+.menu-list{
+  height: 158px;
+  gap: 12px;
+}
+
+.menu-item {
+  font-size: 16px;
+}
+
+.title-main {
+  font-size: 45px; 
+}
+
+.title-main-span {
+  font-size: 45px;
+}
+
+
+  /*main*/
+.main {
+  max-width: 768px;
+  margin: 50px auto;
+}
+
+.for-bac {
+  background-image: url(../img/bac768.png);
+  height: 1080px;
+}
+
+.h1-main {
+  font-size: 160px;
+}
+}
+
+@media (max-width:500px) {
+   /*body*/
+  body{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /*main*/
+.main {
+  max-width: 100%;
+  margin: 70px auto;
+}
+
+.for-bac {
+  background-image: url(../img/bac500.png);
+  height: 750px;
+}
+
+.h1-main {
+  font-size: 110px;
+  width: 100%;
+}
+
+.p-main {
+  font-size: 20px;
+  width: 100%;
+}
+}
+
+@media (max-width:425px) {
+   /*body*/
+  body{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /*main*/
+.main {
+  max-width: 100%;
+  margin: 70px auto;
+}
+
+.for-bac {
+  background-image: url(../img/bac425.png);
+  height: 650px;
+}
+
+.h1-main {
+  font-size: 90px;
+  width: 100%;
+}
+
+.p-main {
+  font-size: 18px;
+  width: 100%;
+}
+}
+
+@media (max-width:375px) {
+   /*body*/
+  body{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /*main*/
+.main {
+  max-width: 100%;
+  margin: 70px auto;
+}
+
+.for-bac {
+  background-image: url(../img/bac375.png);
+  height: 650px;
+}
+
+.h1-main {
+  font-size: 90px;
+  width: 100%;
+}
+
+.p-main {
+  font-size: 18px;
+  width: 100%;
+}
+}
+
+@media (max-width:360px) {
+   /*body*/
+  body{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /*main*/
+.main {
+  max-width: 360px;
+  margin: 70px auto;
+}
+
+.for-bac {
+  background-image: url(../img/bac360.png);
+  height: 600px;
+}
+
+.h1-main {
+  font-size: 80px;
+}
+
+.p-main {
+  font-size: 16px;
+}
+}
+
+@media (max-width:320px) {
+   /*body*/
+  body{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /*main*/
+.main {
+  max-width: 320px;
+  margin: 70px auto;
+}
+
+.for-bac {
+  background-image: url(../img/bac320.png);
+  height: 600px;
+}
+
+.h1-main {
+  font-size: 70px;
+}
+
+.p-main {
+  font-size: 13px;
+}
+}
+

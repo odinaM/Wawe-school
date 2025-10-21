@@ -1,0 +1,1369 @@
+@font-face {
+  font-family: 'RobotoCondensed-Light';
+  src:
+  url('../fonts/RobotoCondensed-Light.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoCondensed-Regular';
+  src:
+  url('../fonts/RobotoCondensed-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway-Bold';
+  src:
+  url('../fonts/Raleway-Bold.ttf');
+}
+@font-face {
+  font-family: 'Raleway-SemiBold';
+  src:
+  url('../fonts/Raleway-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'RobotoCondensed-SemiBold';
+  src:
+  url('../fonts/RobotoCondensed-SemiBold.ttf');
+}
+
+
+input{
+  display: none;
+}
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  width: 100%;
+  margin-left: auto ;
+  margin-right: auto;
+}
+
+
+/*стили к шапке*/
+.menu-list{
+  background-color: #165E78;
+  text-decoration: none;
+  display: flex;
+  height: 158px;
+  list-style: none;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item {
+  font-family: 'RobotoCondensed-Regular';
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  text-decoration: underline #00B2A0;
+  text-underline-offset: 10px;
+  cursor: pointer;
+}
+
+.header-span{
+     text-underline-offset: 10px; 
+    text-decoration: underline #00B2A0 2px;
+}
+
+/*основные стили*/
+.banner{
+    background-image:url("../img/banner.png") ;
+    height: 1080px;
+    display: flex;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.banner-text{
+  color:#0D302C;
+  font-size:200px;
+  font-weight: bold;
+  margin:422px auto;
+  font-family: 'Raleway-Bold';
+}
+.tours_description{
+  height: 293px;
+  background-color: #165E78;
+  display: flex;
+   transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+}
+.card-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+.tours_description_text{
+  color: white;
+  font-size: 40px;
+  margin: 76px auto;
+  width: 1684px;
+  height: 141px;
+  text-align: center;
+  font-family:'RobotoCondensed-Regular';
+}
+.serf_tours_title{
+  color: #01353E;
+  margin: 109px auto;
+  font-size: 48px;
+  font-family: 'Raleway-SemiBold';
+}
+.serf_tours{
+  display: flex;
+}
+.card-item{
+    background-color:#165E78 ;
+    align-content: center;
+    justify-content: flex-start; /* Добавила */
+    align-items: center;
+    width: 481px;
+    height: 619px;
+    margin: 0 auto;
+    display: flex; /* Добавила */
+    flex-direction: column; /* Добавила */
+}
+.top_text{
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  margin-top: 18px;
+  color: white;
+  font-size: 32px;
+  font-family: 'Raleway-SemiBold';
+  align-self: flex-start; /* Добавила */
+}
+
+.country {
+  font-size: 32px;
+  color: white;
+  margin-right: 84px;
+  margin-left: 20px;
+  font-family: 'Raleway-SemiBold';
+  width: 214px;
+
+}
+
+.price {
+  font-size: 32px;
+  color: white;
+  font-family: 'RobotoCondensed-SemiBold';
+  text-align: right;
+}
+
+.day {
+  font-size: 32px;
+  color: white;
+  margin-left: 20px;
+  font-family: 'RobotoCondensed-Regular';
+  align-self: flex-start;
+
+}
+.card-item img{
+  width: 481px;
+  height: 481px;
+  display: block; /* Добавила */
+ 
+}
+
+.tours_card_container{
+  display: flex;
+  align-content: center;
+}
+.over-footer{
+  display: flex;
+  gap: 263px;
+  padding: 165px 0px;
+  justify-content: center;
+  align-content: center;
+}
+
+.over-footer-logo{
+font-family: 'Raleway-Bold';
+font-size: 50px;
+line-height: 59px;
+color: #0D302C;
+}
+
+.over-footer-logo img{
+  padding-right: 8px;
+  padding-bottom: 8px;
+  width: 40px;
+  height: 40px;
+}
+
+.li-one,
+.li-two,
+.li-three{
+  font-family: 'RobotoCondensed-Regular';
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.6px;
+}
+
+.list li{
+  padding-bottom: 17px;
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+
+.over-footer-li:hover{
+  color: #165E78;
+  cursor: pointer;
+  text-decoration: underline #00B2A0;
+  text-underline-offset: 5px;
+}
+
+.over-footer-li {
+  color: black;
+  text-decoration: none;
+}
+
+.footer{
+  background-color: #165E78;
+  height: 117.8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text{
+  color: white;
+  font-size: 24px;
+  font-family: 'RobotoCondensed-Regular';
+}
+
+.main-text{
+  color: #01353E;
+  font-size: 48px;
+  margin: 70px auto;
+  font-family:  'Raleway-SemiBold';
+}
+.gallery-text {
+  display: flex;
+  height: 56px;
+}
+.gallery_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1526px;
+    height: 655px;
+    margin: 0px auto;
+    margin-top: 109px;
+    justify-content: center;
+    gap: 0 79px;
+}
+.card-item-gallery{
+    width: 456px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.gallery_img {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+        width: 456px;
+    height: 300px;
+}
+
+.gallery_img:hover {
+    transform: translateY(-12px) scale(1.05);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35);
+}
+.gallery_container_text{
+  display: flex;
+  width: 102px;
+  height: 18px;
+}
+.gallery_container_text p{
+  margin:62px 220px;
+  font-size: 24px;
+  font-family: 'RobotoCondensed-Regular';
+}
+.logo_footer_link {
+  color: #0D302C;
+  text-decoration: none;
+}
+@media(max-width:1024px)
+{
+  /*стили к шапке*/
+.menu-list{
+  height: 158px;
+  gap: 20px;
+}
+
+.menu-item {
+  font-size: 20px;
+}
+
+/* Основные стили страницы */
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title-main {
+  font-size: 45px; 
+  margin:  0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center; 
+}
+
+.title-main-span {
+  font-size: 45px;
+}
+
+  .banner{
+   background-size: auto 580px;
+   height: 350px;
+  }
+  .banner-text{
+    font-size: 55px;
+    margin: 160px auto;
+  }
+  .tours_description{
+    height: 90px;
+  }
+  .tours_description_text{
+    font-size: 14px;
+    margin: 10px auto;
+    width: 430px;
+    height: 60px;
+  }
+  .serf_tours_title{
+    margin: 29px auto;
+    font-size: 16px;
+  }
+  .card-item{
+    width: 220px;
+    height: 235px; 
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card-item img{
+  width: 220px;
+  height: 185px;
+}
+
+
+.top_text{
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: 7px;
+  color: white;
+}
+
+.country {
+  font-size: 10px;
+  color: white;
+  margin-right: 60px;
+  margin-left: 8px;
+  width: 67px;/* Добавила */
+}
+
+.price {
+  font-size: 11px;
+  color: white;
+}
+
+.day {
+  font-size: 12px;
+  color: white;
+  margin-left: 8px;
+}
+ /* Основные стили страницы gallery*/
+ .main-text{
+  font-size: 32px;
+  margin: 18px auto;
+}
+.gallery-text {
+  height: 38px;
+}
+.gallery_container_text p {
+  font-size: 30px;
+  margin: 26px 483px!important;
+}
+
+.gallery_container_text {
+  font-size: 30px;
+
+}
+
+.gallery_container{
+  width: 900px;
+  height: 100%;
+  margin: 0px auto;
+  margin-top: 56px;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.card-item-gallery{
+  width: 350px;
+  height: 220px;
+  margin-bottom: 13px;
+  flex: 0 0 calc(40% - 10px); 
+ 
+}
+.gallery_img{
+ width: 350px;
+  height: 220px;
+}
+.gallery_container_text{
+  display: flex;
+  height: 18px;
+
+}
+.gallery_container_text p{
+  margin: 26px 145px;
+  font-size: 16px;
+}
+.gallery_container_text{
+  display: flex;
+  height: 18px;
+
+}
+.gallery_container_text p{
+  margin: 26px 145px;
+  font-size: 16px;
+}
+  /* стили подвала*/
+.over-footer {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+  }
+ 
+.over-footer-logo {
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  }
+
+.over-footer-logo img {
+  padding-right: 8px;
+  padding-bottom: 8px;
+  width: 30px; 
+  height: 30px; 
+}
+
+.li-one,
+.li-two,
+.li-three {
+  font-size: 16px; 
+  line-height: 1.3;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+
+.over-footer-li {
+  gap: 17px;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-info img {
+  width: 30px;
+  height: 23px; 
+  }
+}
+@media(max-width:768px)
+{
+  body{
+  width: 100%;
+}
+
+.menu-list{
+  height: 158px;
+  gap: 12px;
+}
+
+.menu-item {
+  font-size: 16px;
+}
+  .banner{
+   background-size: auto 450px;
+   height: 260px;
+  }
+  .banner-text{
+    font-size: 48px;
+    margin: 95px auto;
+  }
+  .tours_description{
+    height: 90px;
+  }
+  .tours_description_text{
+    font-size: 14px;
+    margin: 10px auto;
+    width: 430px;
+    height: 60px;
+  }
+  .serf_tours_title{
+    margin: 29px auto;
+    font-size: 16px;
+  }
+  .card-item{
+    width: 220px;/* Добавила */
+    height: 235px; /* Добавила */
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card-item img{
+  width: 220px;
+  height: 185px;
+}
+
+.top_text{
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: 7px;
+  color: white;
+}
+
+.country {
+  font-size: 10px;
+  color: white;
+  margin-right: 60px;
+  margin-left: 8px;
+  width: 67px;/* Добавила */
+}
+
+.price {
+  font-size: 11px;
+  color: white;
+}
+
+.day {
+  font-size: 12px;
+  color: white;
+  margin-left: 8px;
+}
+ /* Основные стили страницы gallery*/
+ .main-text{
+  font-size: 32px;
+  margin: 18px auto;
+}
+.gallery-text {
+  height: 38px;
+}
+.gallery_container_text p {
+  margin: 26px 353px!important;
+}
+.gallery_container{
+  width: 660px;
+  height: 100%;
+  margin: 0px auto;
+  margin-top: 56px;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.card-item-gallery{
+  width: 280px;
+  height: 190px;
+  margin-bottom: 13px;
+  flex: 0 0 calc(40% - 10px); 
+ 
+}
+.gallery_img{
+ width: 280px;
+  height: 190px;
+}
+.gallery_container_text{
+  display: flex;
+  height: 18px;
+
+}
+.gallery_container_text p{
+  margin: 26px 145px;
+  font-size: 16px;
+}
+  /* стили подвала*/
+.over-footer {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+  }
+ 
+.over-footer-logo {
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  }
+
+.over-footer-logo img {
+  padding-right: 8px;
+  padding-bottom: 8px;
+  width: 30px; 
+  height: 30px; 
+}
+
+.li-one,
+.li-two,
+.li-three {
+  font-size: 16px; 
+  line-height: 1.3;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+
+.over-footer-li {
+  gap: 17px;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-info img {
+  width: 30px;
+  height: 23px; 
+  }
+}
+@media(max-width:500px)
+{
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .title-main h1 {
+  font-size: 24px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.title-main, .title-main-span {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-size: 24px; 
+  text-align: center; 
+}
+  .banner{
+   background-size: auto 285px;
+   height: 217px;
+  }
+  .banner-text{
+    font-size: 48px;
+    margin: 66px auto;
+  }
+  .tours_description{
+    height: 75px;
+  }
+  .tours_description_text{
+    font-size: 11px;
+    margin: 7px auto;
+    width: 295px;
+    height: 60px;
+  }
+  .serf_tours_title{
+    margin: 29px auto;
+    font-size: 16px;
+  }
+  .card-item{
+    width: 220px;/* Добавила */
+    height: 235px; /* Добавила */
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card-item img{
+  width: 220px;
+  height: 185px;
+}
+.tours_card_container{
+  flex-direction: column;
+  height: 715px; /* Добавила */
+}
+.top_text{
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: 7px;
+  color: white;
+}
+
+.country {
+  font-size: 10px;
+  color: white;
+  margin-right: 60px;
+  margin-left: 8px;
+  width: 67px;/* Добавила */
+}
+
+.price {
+  font-size: 11px;
+  color: white;
+}
+
+.day {
+  font-size: 12px;
+  color: white;
+  margin-left: 8px;
+}
+ /* Основные стили страницы gallery*/
+ .main-text{
+  font-size: 32px;
+  margin: 18px auto;
+}
+.gallery-text {
+  height: 38px;
+}
+.gallery_container_text p {
+  margin: 40px 220px!important;
+}
+.gallery_container{
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  margin-top: 56px;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card-item-gallery{
+  width: 180px;
+  height: 120px;
+  margin-bottom: 13px;
+  flex: 0 0 calc(40% - 10px); 
+ 
+}
+.gallery_img{
+ width: 180px;
+  height: 120px;
+}
+.gallery_container_text{
+  display: flex;
+  height: 18px;
+}
+.gallery_container_text p{
+  margin: 26px 145px;
+  font-size: 16px;
+}
+  /* стили подвала*/
+.over-footer {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+  }
+ 
+.over-footer-logo {
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  }
+
+.over-footer-logo img {
+  padding-right: 8px;
+  padding-bottom: 8px;
+  width: 30px; 
+  height: 30px; 
+}
+
+.li-one,
+.li-two,
+.li-three {
+  font-size: 16px; 
+  line-height: 1.3;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+
+.over-footer-li {
+  gap: 17px;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-info img {
+  width: 30px;
+  height: 23px; 
+  }
+}
+@media(max-width:425px)
+{
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .title-main h1 {
+  font-size: 24px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.title-main, .title-main-span {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-size: 24px; 
+  text-align: center; 
+}
+  .banner{
+   background-size: auto 267px;
+   height: 217px;
+  }
+  .banner-text{
+    font-size: 48px;
+    margin: 66px auto;
+  }
+  .tours_description{
+    height: 75px;
+  }
+  .tours_description_text{
+    font-size: 11px;
+    margin: 7px auto;
+    width: 295px;
+    height: 60px;
+  }
+  .serf_tours_title{
+    margin: 29px auto;
+    font-size: 16px;
+  }
+  .card-item{
+    width: 200px;/* Добавила */
+    height: 229px; /* Добавила */
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card-item img{
+  width: 200px;
+  height: 185px;
+}
+.tours_card_container{
+  flex-direction: column;
+  height: 715px; /* Добавила */
+}
+.top_text{
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: 7px;
+  color: white;
+}
+
+.country {
+  font-size: 10px;
+  color: white;
+  margin-right: 60px;
+  margin-left: 8px;
+  width: 67px;/* Добавила */
+}
+
+.price {
+  font-size: 11px;
+  color: white;
+}
+
+.day {
+  font-size: 12px;
+  color: white;
+  margin-left: 8px;
+}
+ /* Основные стили страницы gallery*/
+ .main-text{
+  font-size: 32px;
+  margin: 18px auto;
+}
+.gallery-text {
+  height: 38px;
+}
+.gallery_container_text p {
+  margin: 26px 180px!important;
+}
+.gallery_container{
+  width: 340px;
+  height: 100%;
+  margin: 0px auto;
+  margin-top: 56px;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card-item-gallery{
+  width: 140px;
+  height: 64px;
+  margin-bottom: 13px;
+  flex: 0 0 calc(40% - 10px); 
+  height: 80px
+}
+.gallery_img{
+ width: 140px;
+  height: 90px;
+}
+.gallery_container_text{
+  display: flex;
+  height: 18px;
+
+}
+.gallery_container_text p{
+  margin: 26px 145px;
+  font-size: 16px;
+}
+  /* стили подвала*/
+.over-footer {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+  }
+ 
+.over-footer-logo {
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  }
+
+.over-footer-logo img {
+  padding-right: 8px;
+  padding-bottom: 8px;
+  width: 30px; 
+  height: 30px; 
+}
+
+.li-one,
+.li-two,
+.li-three {
+  font-size: 16px; 
+  line-height: 1.3;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+
+.over-footer-li {
+  gap: 17px;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-info img {
+  width: 30px;
+  height: 23px; 
+  }
+}
+@media(max-width:375px)
+{
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .title-main h1 {
+  font-size: 24px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.title-main, .title-main-span {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-size: 24px; 
+  text-align: center; 
+}
+  .banner{
+   background-size: auto 217px;
+   height: 217px;
+  }
+  .banner-text{
+    font-size: 48px;
+    margin: 66px auto;
+  }
+  .tours_description{
+    height: 75px;
+  }
+  .tours_description_text{
+    font-size: 10px;
+    margin: 7px auto;
+    width: 295px;
+    height: 60px;
+  }
+  .serf_tours_title{
+    margin: 29px auto;
+    font-size: 16px;
+  }
+  .card-item{
+    width: 200px;/* Добавила */
+    height: 229px; /* Добавила */
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card-item img{
+  width: 200px;
+  height: 185px;
+}
+.tours_card_container{
+  flex-direction: column;
+  height: 715px; /* Добавила */
+}
+.top_text{
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: 7px;
+  color: white;
+}
+
+.country {
+  font-size: 10px;
+  color: white;
+  margin-right: 60px;
+  margin-left: 8px;
+  width: 67px;/* Добавила */
+}
+
+.price {
+  font-size: 11px;
+  color: white;
+}
+
+.day {
+  font-size: 12px;
+  color: white;
+  margin-left: 8px;
+}
+ /* Основные стили страницы gallery*/
+ .main-text{
+  font-size: 32px;
+  margin: 18px auto;
+}
+.gallery-text {
+  height: 38px;
+}
+.gallery_container{
+  width: 340px;
+  height: 100%;
+  margin: 0px auto;
+  margin-top: 56px;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card-item-gallery{
+  width: 140px;
+  height: 64px;
+  margin-bottom: 13px;
+  flex: 0 0 calc(40% - 10px); 
+  height: 80px
+}
+.gallery_img{
+ width: 140px;
+  height: 90px;
+}
+.gallery_container_text{
+  display: flex;
+  height: 18px;
+
+}
+.gallery_container_text p{
+  margin: 26px 160px !important;
+  font-size: 16px;
+}
+  /* стили подвала*/
+.over-footer {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+  }
+ 
+.over-footer-logo {
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  }
+
+.over-footer-logo img {
+  padding-right: 8px;
+  padding-bottom: 8px;
+  width: 30px; 
+  height: 30px; 
+}
+
+.li-one,
+.li-two,
+.li-three {
+  font-size: 16px; 
+  line-height: 1.3;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+
+.over-footer-li {
+  gap: 17px;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-info img {
+  width: 30px;
+  height: 23px; 
+  }
+}
+@media (max-width:360px){
+  /* Основные стили страницы tours_and_trips*/
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .title-main h1 {
+  font-size: 24px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.title-main, .title-main-span {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-size: 24px; 
+  text-align: center; 
+}
+  .banner{
+   background-size: auto 202px;
+   height: 202px;
+  }
+  .banner-text{
+    font-size: 48px;
+    margin: 66px auto;
+  }
+  .tours_description{
+    height: 75px;
+  }
+  .tours_description_text{
+    font-size: 10px;
+    margin: 7px auto;
+    width: 295px;
+    height: 60px;
+  }
+  .serf_tours_title{
+    margin: 29px auto;
+    font-size: 16px;
+  }
+  .card-item{
+    width: 185px;/* Добавила */
+    height: 229px; /* Добавила */
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card-item img{
+  width: 185px;
+  height: 178px;
+}
+.tours_card_container{
+  flex-direction: column;
+  height: 715px; /* Добавила */
+}
+.top_text{
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: 7px;
+  color: white;
+}
+
+.country {
+  font-size: 10px;
+  color: white;
+  margin-right: 60px;
+  margin-left: 8px;
+  width: 67px;/* Добавила */
+}
+
+.price {
+  font-size: 11px;
+  color: white;
+}
+
+.day {
+  font-size: 12px;
+  color: white;
+  margin-left: 8px;
+}
+ /* Основные стили страницы gallery*/
+ .main-text{
+  font-size: 32px;
+  margin: 18px auto;
+}
+.gallery_container_text p {
+  margin: 26px 145px!important;
+}
+.gallery-text {
+  height: 38px;
+}
+.gallery_container{
+    width: 340px;
+    height: 100%;
+    margin: 0px auto;
+    margin-top: 56px;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.card-item-gallery{
+    width: 120px;
+    height: 64px;
+    margin-bottom: 13px;
+    flex: 0 0 calc(40% - 10px); /* 2 карточки в ряд */
+    height: 80px
+}
+.gallery_img{
+   width: 120px;
+    height: 80px;
+
+}
+.gallery_container_text{
+  display: flex;
+  height: 18px;
+
+}
+.gallery_container_text p{
+  margin: 26px 145px;
+  font-size: 16px;
+}
+  /* стили подвала*/
+.over-footer {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+  }
+ 
+.over-footer-logo {
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  }
+
+.over-footer-logo img {
+  padding-right: 8px;
+  padding-bottom: 8px;
+  width: 30px; 
+  height: 30px; 
+}
+
+.li-one,
+.li-two,
+.li-three {
+  font-size: 16px; 
+  line-height: 1.3;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+
+.over-footer-li {
+  gap: 17px;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-info img {
+  width: 30px;
+  height: 23px; 
+  }
+}
+@media (max-width: 320px) {
+/* Основные стили страницы */
+body {
+  width: 100%;
+  margin: 0 auto; 
+}
+.gallery_container_text p {
+  margin: 26px 129px!important;
+}
+.gallery_container{
+  width: 320px;
+  height: 100%;
+  margin: 0px auto;
+  margin-top: 56px;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card-item-gallery{
+  width: 120px;
+  height: 64px;
+  margin-bottom: 13px;
+  flex: 0 0 calc(40% - 10px); /* 2 карточки в ряд */
+  height: 80px
+}
+.gallery_img{
+ width: 120px;
+  height: 80px;
+
+}
+}

@@ -1,0 +1,2438 @@
+@font-face {
+  font-family: 'RobotoCondensed-Light';
+  src:
+  url('../fonts/RobotoCondensed-Light.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoCondensed-SemiBold';
+  src:
+  url('../fonts/RobotoCondensed-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoCondensed-Regular';
+  src:
+  url('../fonts/RobotoCondensed-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway-Bold';
+  src:
+  url('../fonts/Raleway-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway-SemiBold';
+  src:
+  url('../fonts/Raleway-Bold.ttf');
+}
+
+
+
+
+
+
+.menu input{
+  display: none;
+}
+*,
+::after,
+::before {
+   scroll-behavior: smooth;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-list{
+  background-color: #165E78;
+  text-decoration: none;
+  display: flex;
+  height: 158px;
+  list-style: none;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item {
+  font-family: 'RobotoCondensed-Regular';
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  text-decoration: underline #00B2A0;
+  text-underline-offset: 10px;
+  cursor: pointer;
+}
+.header-span{
+     text-underline-offset: 10px; 
+    text-decoration: underline #00B2A0 2px;
+}
+
+.rent{
+  font-family: 'RobotoCondensed-Regular';
+justify-self:center;
+  margin:100px auto;
+  margin-left: 67px;
+}
+.line_subtitle{
+  color: #00B2A0;
+}
+.subtitle{
+   font-family: 'Raleway-SemiBold';
+  font-weight: bold;
+  color: #01353E;
+  width:fit-content;
+  height: 56px;
+  font-size: 48px;
+  text-align: center;
+  
+  margin:30px auto;
+margin-bottom: 80px;
+  display:flex;
+  justify-self:center;
+}
+
+
+.rent-cards{
+
+ 
+  gap: 68px;
+  display:flex;
+ 
+  flex-wrap:wrap;
+  margin: 0 auto;
+
+}
+.rent-title{
+    font-family: 'RobotoCondensed-Regular';
+ text-align: center;
+
+  color: #01353E;
+  justify-self: center;
+  font-size: 40px;
+
+}
+.rent-ul{
+
+  list-style:none;
+}
+.rent-li{
+   font-size: 24px;
+color: #242121;
+  margin-top:40px;
+}
+.rent-price{
+  color: #01353E;
+  font-size: 36px;
+  
+  margin-top: 40px;
+justify-self: center;
+}
+.rent-price span{
+  color:#01353E;
+margin-left: 9px;
+font-size: 18px;
+}
+.rent-card-standart{
+padding:  66px 38px  64px 38px ;
+  width:550px;
+  height:677px;
+  background-color:#F8F8F8;
+}
+
+.rent-card-all{
+padding:  60px 47px  60px 47px ;
+   width:550px;
+  height:845px;
+  background-color:#F8F8F8;
+}
+.rent-card-pro{
+  padding:  60px 21px  215px 21px ;
+   width:550px;
+  height:928px;
+  background-color:#F8F8F8;
+}
+.contact{
+  font-family: 'RobotoCondensed-Regular';
+  margin: 100px auto;
+}
+.contact-info{
+ 
+  margin: 0 auto;
+  width: 655px;
+  height:463px ;
+  background-color: #F8F8F8;
+  margin-bottom: 90px;
+}
+
+.contact-info-more{
+   line-height: 30px;
+  letter-spacing: 0.6px;
+font-family: 'RobotoCondensed-Regular';
+  font-size: 24px;
+padding: 28px 89px 73px 89px;
+ text-align: center;
+justify-self: center;
+text-align: center;
+
+}
+.contact-info-more p{
+  margin-top: 45px;
+}
+.reqest-contact{
+ font-family: 'RobotoCondensed-Regular';
+  width: 569px;
+  height: 603px;
+  margin: 0 auto;
+}
+.contact-form{
+font-size: 24px;
+margin: 0 auto;
+display:flex;
+flex-direction: column;
+}
+
+textarea{
+    letter-spacing: 0.6px;
+  font-family: 'RobotoCondensed-Regular';
+ padding: 66px 75px 91px 20px;
+  font-size: 24px;
+  
+overflow:hidden;
+  resize: none;
+  /*padding: 66px 0 66px 0;*/
+  color: #00B2A0;
+    border: none;
+   border-bottom: solid 1px #DADADA;
+  
+}
+
+
+input{
+    letter-spacing: 0.6px;
+  font-family: 'RobotoCondensed-Regular';
+  font-size: 24px;
+  padding: 18px 0 20px 20px;
+   border: none;
+   border-bottom: solid 1px #DADADA;
+    width: 100%;
+  color: #00B2A0;
+
+}
+.contact-button{
+  font-family: 'RobotoCondensed-Regular';
+  background-color: white;
+  font-size: 24px;
+  margin-top: 73px;
+  width: 350px;
+  height: 70px;
+border: 1px solid #C4C4C4;
+}
+.contact-button:hover{
+  background-color:#00b2a069;
+  cursor: pointer;
+}
+.contact-button:focus{
+  background-color:#00b2a0a1;
+  cursor: pointer;
+}
+
+::placeholder{
+ 
+  font-size: 24px;
+  font-family: 'RobotoCondensed-Regular';
+  color: #00B2A0;
+  width: 260px;
+height: 75px;
+}
+
+
+
+/*стили к подвалу*/
+
+.over-footer{
+  display: flex;
+  gap: 263px;
+  padding: 165px 0px;
+  justify-content: center;
+  align-content: center;
+}
+
+.over-footer-logo{
+font-family: 'Raleway-Bold';
+font-size: 50px;
+line-height: 59px;
+color: #0D302C;
+}
+
+.over-footer-logo img{
+  padding-right: 8px;
+  padding-bottom: 8px;
+  width: 40px;
+  height: 40px;
+}
+
+.li-one,
+.li-two,
+.li-three{
+  font-family: 'RobotoCondensed-Regular';
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.6px;
+}
+
+.list li{
+  padding-bottom: 17px;
+  list-style: none;
+}
+
+.over-footer-li{
+  padding-bottom: 17px;
+  gap: 17px;
+  color: black;
+  text-decoration: none;
+}
+
+.over-footer-li:hover{
+  color: #165E78;
+  cursor: pointer;
+  text-decoration: underline #00B2A0;
+  text-underline-offset: 5px;
+}
+
+
+
+.footer{
+  background-color: #165E78;
+
+  height: 117.8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text{
+  color: white;
+  font-size: 24px;
+  font-family: 'RobotoCondensed-Regular';
+}
+
+.logo_footer_link {
+  color: #0D302C;
+  text-decoration: none;
+}
+@media (max-width: 1024px){
+/*стили к шапке*/
+.menu-list{
+  height: 158px;
+  gap: 20px;
+}
+
+.menu-item {
+  font-size: 20px;
+}
+
+/* Основные стили страницы */
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title-main {
+  font-size: 45px; 
+  margin:  0 auto;
+  padding-top: 30px;
+  text-align: center; 
+}
+
+.title-main-span {
+  font-size: 45px;
+}
+
+
+.rent{
+ font-family: 'RobotoCondensed-Regular';
+justify-self:center;
+margin:0 auto;
+  width: 768px;
+}
+
+.subtitle{
+  
+  font-family: 'Raleway-Bold';
+  font-weight: bold;
+  color: #01353E;
+  width:100%;
+  height: 56px;
+  font-size: 44px;
+text-align: center;
+
+margin-bottom: 20px;
+  display:flex;
+align-content: center;
+}
+.subtitle p{  
+      font-family: 'Raleway-Bold';
+   font-size: 44px;
+    
+  margin:0 auto;
+  width: 100%;
+}
+.rent-cards{
+margin: 0 auto;
+justify-content: center;
+width: 84%;
+}
+.rent-title{
+  
+ margin: 0 auto;
+  color: #01353E;
+  justify-self: center;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.rent-ul{
+
+  width: 750px;
+  list-style:none;
+}
+.rent-li{
+     font-family: 'RobotoCondensed-Regular';
+     font-size: 24px;
+  width: 80%;
+color: #242121;
+  margin-top:40px;
+}
+.rent-price{  
+  margin: 0 auto;
+   text-align: center;
+  color: #01353E;
+  font-size: 36px;
+ 
+  margin-top: 40px;
+justify-self: center;
+}
+.rent-price p{
+    margin: 0 auto;
+   text-align: center;
+   justify-self: center;
+}
+.rent-price span{
+margin-left: 9px;
+font-size: 16px;
+}
+.rent-card-standart{
+
+padding: 56px 28px  54px 28px   ;
+width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+
+.rent-card-all{
+  padding: 50px 37px  60px 37px  ;
+ width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+.rent-card-pro{
+  padding:  50px 11px  115px 41px   ;
+   width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+.contact{
+
+margin:0 auto
+}
+.contact-info{
+  margin: 0 auto;
+
+  width:82%;
+  height:100%;
+  background-color: #F8F8F8;
+  
+}
+
+.contact-info-more{
+
+  line-height: 30px;
+  letter-spacing: 0.6px;
+  width: 500px;
+  height: 460px;
+font-family: 'RobotoCondensed-Regular';
+  font-size: 24px;
+padding: 25px 89px 73px 89px;
+ text-align: center;
+justify-self: center;
+text-align: center;
+
+}
+
+.contact-info-more p{
+
+  color: #242121;
+   font-size: 24px;
+  width: 100%;
+   font-family: 'RobotoCondensed-Regular';
+  font-size: 24px;
+}
+.reqest-contact{
+height: 100%;
+  padding: 0 auto;
+    font-family: 'RobotoCondensed-Regular';
+  width:450px;
+  font-size: 24px;
+  margin: 0 auto;
+ 
+  
+}
+.reqest-contact .subtitle{
+  margin-bottom: 60px;
+}
+.contact-form{
+     
+     height: 100%;
+     font-family: 'RobotoCondensed-Regular';
+  font-size: 24px;
+width: 100%;
+
+margin: 0 auto;
+display:flex;
+flex-direction: column;
+}
+
+textarea{
+  font-size: 24px;
+     font-family: 'RobotoCondensed-Regular';
+letter-spacing: 0.6px;
+ 
+ overflow: auto;
+  resize: none;
+  padding: 66px 75px 91px 20px;
+  color: #00B2A0;
+    border: none;
+   border-bottom: solid 1px #DADADA;
+  
+}
+input{
+  letter-spacing: 0.6px;
+  font-size: 24px;
+     font-family: 'RobotoCondensed-Regular';
+  padding: 20px 0 20px 20px;
+   border: none;
+   border-bottom: solid 1px #DADADA;
+    width: 100%;
+  color: #00B2A0;
+
+}
+.contact-button{
+     font-family: 'RobotoCondensed-Regular';
+  background-color: white;
+  font-size: 24px;
+  margin-top: 73px;
+  width: 350px;
+  height: 70px;
+border: 1px solid #C4C4C4;
+}
+.contact-button:hover{
+  background-color:#00b2a069;
+  cursor: pointer;
+}
+.contact-button:focus{
+  background-color:#00b2a0a1;
+  cursor: pointer;
+}
+::placeholder{
+  letter-spacing: 0.6px;
+    font-size: 24px;
+     font-family: 'RobotoCondensed-Regular';
+  color: #00B2A0;
+}
+.over-footer {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+  }
+
+.over-footer-logo {
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  }
+
+.over-footer-logo img {
+  padding-right: 8px;
+  padding-bottom: 8px;
+  width: 30px; 
+  height: 30px; 
+}
+
+.li-one,
+.li-two,
+.li-three {
+  font-size: 16px; 
+  line-height: 1.3;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+
+.over-footer-li {
+  gap: 17px;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-info img {
+  width: 30px;
+  height: 23px; 
+  }
+}
+@media (max-width: 768px){
+  .header {
+    max-width: 768px;
+  }
+
+body{
+  width: 100%;
+}
+
+.menu-list{
+  height: 158px;
+  gap: 12px;
+}
+
+.menu-item {
+  font-size: 16px;
+}
+
+
+.rent{
+ font-family: 'RobotoCondensed-Regular';
+justify-self:center;
+   margin:0 auto;
+  width: 768px;
+}
+
+.subtitle{
+  
+  font-family: 'Raleway-Bold';
+  font-weight: bold;
+  color: #01353E;
+  width:80%;
+  height: 56px;
+  font-size: 38px;
+text-align: center;
+
+margin-bottom: 20px;
+  display:flex;
+align-content: center;
+}
+.subtitle p{  
+      font-family: 'Raleway-Bold';
+   font-size: 38px;
+  margin:0 auto;
+  width: 90%;
+}
+.rent-cards{
+margin: 0 auto;
+justify-content: center;
+width: 84%;
+}
+.rent-title{
+  
+ margin: 0 auto;
+  color: #01353E;
+  justify-self: center;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.rent-ul{
+
+  width: 420px;
+  list-style:none;
+}
+.rent-li{
+     font-family: 'RobotoCondensed-Regular';
+     font-size: 20px;
+  width: 80%;
+color: #242121;
+  margin-top:30px;
+}
+.rent-price{  
+  margin: 0 auto;
+   text-align: center;
+  color: #01353E;
+  font-size: 30px;
+ 
+  margin-top: 30px;
+justify-self: center;
+}
+.rent-price p{
+    margin: 0 auto;
+   text-align: center;
+   justify-self: center;
+}
+.rent-price span{
+margin-left: 9px;
+font-size: 16px;
+}
+.rent-card-standart{
+
+padding: 56px 28px  54px 28px   ;
+width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+
+.rent-card-all{
+  padding: 50px 37px  60px 37px  ;
+ width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+.rent-card-pro{
+  padding:  50px 11px  115px 41px   ;
+   width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+.contact{
+margin:0 auto;
+}
+.contact-info{
+  margin: 10px auto;
+
+  width:82%;
+  height:100%;
+  background-color: #F8F8F8;
+ 
+}
+
+.contact-info-more{
+
+  line-height: 30px;
+  letter-spacing: 0.6px;
+  width: 500px;
+  height: 400px;
+font-family: 'RobotoCondensed-Regular';
+  font-size: 24px;
+padding: 10px 89px 73px 89px;
+ text-align: center;
+justify-self: center;
+text-align: center;
+
+}
+
+.contact-info-more p{
+  color: #242121;
+   font-size: 24px;
+  width: 90%;
+   font-family: 'RobotoCondensed-Regular';
+  font-size: 20px;
+  
+}
+.reqest-contact{
+height: 100%;
+  padding: 0 auto;
+    font-family: 'RobotoCondensed-Regular';
+  width:370px;
+  font-size: 24px;
+  margin: 0 auto;
+
+}
+.contact-form{
+     font-family: 'RobotoCondensed-Regular';
+  font-size: 24px;
+width: 100%;
+margin: 0 auto;
+
+display:flex;
+flex-direction: column;
+}
+
+textarea{
+  font-size: 24px;
+     font-family: 'RobotoCondensed-Regular';
+letter-spacing: 0.6px;
+  height: 154px;
+ overflow: auto;
+  resize: none;
+    align-content: center;
+  padding: 66px 75px 91px 20px;
+  color: #00B2A0;
+    border: none;
+   border-bottom: solid 1px #DADADA;
+  
+}
+input{
+  
+  letter-spacing: 0.6px;
+  font-size: 24px;
+     font-family: 'RobotoCondensed-Regular';
+padding: 20px 0 20px 20px;
+   border: none;
+   border-bottom: solid 1px #DADADA;
+    width: 100%;
+  color: #00B2A0;
+
+}
+.contact-button{
+     font-family: 'RobotoCondensed-Regular';
+  background-color: white;
+  font-size: 20px;
+  margin-top: 73px;
+  width: 139px;
+  height: 54px;
+border: 1px solid #C4C4C4;
+}
+.contact-button:hover{
+  background-color:#00b2a069;
+  cursor: pointer;
+}
+.contact-button:focus{
+  background-color:#00b2a0a1;
+  cursor: pointer;
+}
+::placeholder{
+ 
+  align-content: center;
+  letter-spacing: 0.6px;
+    font-size: 24px;
+     font-family: 'RobotoCondensed-Regular';
+  color: #00B2A0;
+}
+.over-footer {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+  }
+
+.over-footer-logo {
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  }
+
+.over-footer-logo img {
+  padding-right: 8px;
+  padding-bottom: 8px;
+  width: 30px; 
+  height: 30px; 
+}
+
+.li-one,
+.li-two,
+.li-three {
+  font-size: 16px; 
+  line-height: 1.3;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+
+.over-footer-li {
+  gap: 17px;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-info img {
+  width: 30px;
+  height: 23px; 
+  }
+}
+@media (max-width: 500px){
+  .header {
+    max-width: 500px;
+  }
+
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.rent{
+ font-family: 'RobotoCondensed-Regular';
+justify-self:center;
+   margin:0 auto;
+  width: 100%;
+}
+
+.subtitle{
+  
+  font-family: 'Raleway-Bold';
+  font-weight: bold;
+  color: #01353E;
+  width:80%;
+  height: 100%;
+  font-size: 30px;
+text-align: center;
+
+margin-bottom: 20px;
+  display:flex;
+align-content: center;
+}
+.subtitle p{  
+      font-family: 'Raleway-Bold';
+   font-size: 30px;
+  margin:0 auto;
+
+  width: 90%;
+}
+.rent-cards{
+margin: 0 auto;
+justify-content: center;
+width: 84%;
+}
+.rent-title{
+  margin: 0 auto;
+ 
+  color: #01353E;
+  justify-self: center;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.rent-ul{
+
+  width: 100%;
+  list-style:none;
+}
+.rent-li{
+     font-family: 'RobotoCondensed-Regular';
+     font-size: 18px;
+  width: 80%;
+color: #242121;
+  margin-top:25px;
+}
+.rent-price{  
+  margin: 0 auto;
+   text-align: center;
+  color: #01353E;
+  font-size: 23px;
+ 
+  margin-top: 25px;
+justify-self: center;
+}
+.rent-price p{
+    margin: 0 auto;
+   text-align: center;
+   justify-self: center;
+}
+.rent-price span{
+margin-left: 9px;
+font-size: 15px;
+}
+.rent-card-standart{
+
+padding: 56px 28px  54px 28px   ;
+width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+
+.rent-card-all{
+padding: 50px 37px  75px 37px  ;
+ width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+.rent-card-pro{
+padding: 56px 28px  94px 28px   ;
+   width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+.contact{
+
+   margin:0 auto;
+}
+.contact-info{
+  margin: 10px auto;
+
+  width:82%;
+  height:100%;
+  background-color: #F8F8F8;
+
+}
+
+.contact-info-more{
+
+  line-height: 30px;
+  letter-spacing: 0.6px;
+  width: 360px;
+  height: 360px;
+font-family: 'RobotoCondensed-Regular';
+  font-size: 24px;
+padding: 37px 44px 27px 63px;
+ text-align: center;
+justify-self: center;
+text-align: center;
+
+}
+
+.contact-info-more p{
+  color: #242121;
+  margin-top: 18px;
+  width: 90%;
+   font-family: 'RobotoCondensed-Regular';
+  font-size: 14px;
+}
+.reqest-contact{
+height: 100%;
+  padding: 0 auto;
+    font-family: 'RobotoCondensed-Regular';
+  width:310px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+.contact-form{
+     font-family: 'RobotoCondensed-Regular';
+  font-size: 20px;
+width: 100%;
+margin: 0 auto;
+display:flex;
+
+flex-direction: column;
+}
+
+textarea{
+  font-size: 20px;
+     font-family: 'RobotoCondensed-Regular';
+letter-spacing: 0.6px;
+  height: 154px;
+ overflow: auto;
+  resize: none;
+    align-content: center;
+  padding: 55px 0 98px 20px;
+  
+  color: #00B2A0;
+    border: none;
+   border-bottom: solid 1px #DADADA;
+  
+}
+input{
+  letter-spacing: 0.6px;
+  font-size: 20px;
+     font-family: 'RobotoCondensed-Regular';
+     padding: 20px 0 20px 20px;
+
+   border: none;
+   border-bottom: solid 1px #DADADA;
+    width: 100%;
+  color: #00B2A0;
+
+}
+.contact-button{
+     font-family: 'RobotoCondensed-Regular';
+  background-color: white;
+  font-size: 20px;
+  margin-top: 73px;
+  width: 139px;
+  height: 54px;
+border: 1px solid #C4C4C4;
+}
+.contact-button:hover{
+  background-color:#00b2a069;
+  cursor: pointer;
+}
+.contact-button:focus{
+  background-color:#00b2a0a1;
+  cursor: pointer;
+}
+::placeholder{
+    align-content: center;
+  letter-spacing: 0.6px;
+    font-size: 20px;
+     font-family: 'RobotoCondensed-Regular';
+  color: #00B2A0;
+}
+.over-footer {
+  
+  display: block;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+  }
+
+.over-footer-logo {
+   font-family: 'Raleway-Bold';
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  }
+
+.over-footer-logo img {
+  padding-right: 8px;
+  padding-bottom: 8px;
+  width: 30px; 
+  height: 30px; 
+}
+
+.li-one,
+.li-two,
+.li-three {
+  font-size: 16px; 
+  line-height: 1.3;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+
+.over-footer-li {
+     font-family: 'RobotoCondensed-Regular';
+  gap: 17px;
+}
+
+.footer {
+    font-family: 'RobotoCondensed-Light';
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-info img {
+  width: 30px;
+  height: 23px; 
+}
+}
+@media (max-width: 425px){
+  .header {
+    max-width: 425px;
+  }
+
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.rent{
+ font-family: 'RobotoCondensed-Regular';
+justify-self:center;
+     margin:0 auto;
+  width: 425px;
+}
+
+.subtitle{
+  
+  font-family: 'Raleway-Bold';
+  font-weight: bold;
+  color: #01353E;
+  width:80%;
+  height: 100%;
+  font-size: 24px;
+text-align: center;
+
+margin-bottom: 20px;
+  display:flex;
+align-content: center;
+}
+.subtitle p{  
+      font-family: 'Raleway-Bold';
+   font-size: 24px;
+  margin:0 auto;
+  width: 90%;
+}
+.rent-cards{
+margin: 0 auto;
+justify-content: center;
+width: 84%;
+}
+.rent-title{
+  
+ margin: 0 auto;
+  color: #01353E;
+  justify-self: center;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.rent-ul{
+
+  width: 350px;
+  list-style:none;
+}
+.rent-li{
+     font-family: 'RobotoCondensed-Regular';
+     font-size: 14px;
+  width: 80%;
+color: #242121;
+  margin-top:20px;
+}
+.rent-price{  
+  margin: 0 auto;
+   text-align: center;
+  color: #01353E;
+  font-size: 16px;
+ 
+  margin-top: 20px;
+justify-self: center;
+}
+.rent-price p{
+    margin: 0 auto;
+   text-align: center;
+   justify-self: center;
+}
+.rent-price span{
+margin-left: 9px;
+font-size: 15px;
+}
+.rent-card-standart{
+
+padding: 46px 18px  44px 18px   ;
+width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+
+.rent-card-all{
+padding: 46px 18px  54px 18px   ;
+ width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+.rent-card-pro{
+padding: 46px 18px  74px 18px   ;
+   width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+.contact{
+
+   margin:0 auto;
+}
+.contact-info{
+  margin: 10px auto;
+
+  width:82%;
+  height:100%;
+  background-color: #F8F8F8;
+
+}
+
+.contact-info-more{
+
+  line-height: 30px;
+  letter-spacing: 0.6px;
+  width: 350px;
+  height: 350px;
+font-family: 'RobotoCondensed-Regular';
+  font-size: 18px;
+padding: 37px 44px 27px 63px;
+ text-align: center;
+justify-self: center;
+text-align: center;
+
+}
+
+.contact-info-more p{
+  color: #242121;
+  margin-top: 18px;
+  width: 90%;
+   font-family: 'RobotoCondensed-Regular';
+  font-size: 14px;
+}
+.reqest-contact{
+height: 100%;
+  padding: 0 auto;
+    font-family: 'RobotoCondensed-Regular';
+  width:300px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+.contact-form{
+     font-family: 'RobotoCondensed-Regular';
+  font-size: 16px;
+width: 100%;
+margin: 0 auto;
+display:flex;
+flex-direction: column;
+}
+
+textarea{
+  font-size: 16px;
+     font-family: 'RobotoCondensed-Regular';
+letter-spacing: 0.6px;
+  height: 154px;
+ overflow: auto;
+   align-content: center;
+  resize: none;
+  
+  padding: 55px 0 98px 20px;
+  color: #00B2A0;
+    border: none;
+   border-bottom: solid 1px #DADADA;
+  
+}
+input{
+  letter-spacing: 0.6px;
+  font-size: 16px;
+     font-family: 'RobotoCondensed-Regular';
+padding: 20px 0 20px 20px;
+   border: none;
+   border-bottom: solid 1px #DADADA;
+    width: 100%;
+  color: #00B2A0;
+
+}
+.contact-button{
+     font-family: 'RobotoCondensed-Regular';
+  background-color: white;
+  font-size: 16px;
+  margin-top: 73px;
+  width: 139px;
+  height: 54px;
+border: 1px solid #C4C4C4;
+}
+.contact-button:hover{
+  background-color:#00b2a069;
+  cursor: pointer;
+}
+.contact-button:focus{
+  background-color:#00b2a0a1;
+  cursor: pointer;
+}
+::placeholder{
+    align-content: center;
+  letter-spacing: 0.6px;
+    font-size: 16px;
+     font-family: 'RobotoCondensed-Regular';
+  color: #00B2A0;
+}
+.over-footer {
+  
+  display: block;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+  }
+
+.over-footer-logo {
+   font-family: 'Raleway-Bold';
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  }
+
+.over-footer-logo img {
+  padding-right: 8px;
+  padding-bottom: 8px;
+  width: 30px; 
+  height: 30px; 
+}
+
+.li-one,
+.li-two,
+.li-three {
+  font-size: 16px; 
+  line-height: 1.3;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+
+.over-footer-li {
+     font-family: 'RobotoCondensed-Regular';
+  gap: 17px;
+}
+
+.footer {
+    font-family: 'RobotoCondensed-Light';
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-info img {
+  width: 30px;
+  height: 23px; 
+}
+}
+@media (max-width: 375px){
+  .header {
+    max-width: 375px;
+  }
+
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.rent{
+ font-family: 'RobotoCondensed-Regular';
+justify-self:center;
+    margin:0 auto;
+  width: 375px;
+}
+
+.subtitle{
+  
+  font-family: 'Raleway-Bold';
+  font-weight: bold;
+  color: #01353E;
+  width:100%;
+  height: 100%;
+  font-size: 24px;
+text-align: center;
+
+margin-bottom: 20px;
+  display:flex;
+align-content: center;
+}
+.subtitle p{  
+      font-family: 'Raleway-Bold';
+   font-size: 24px;
+  margin:0 auto;
+  width: 70%;
+}
+.rent-cards{
+margin: 0 auto;
+justify-content: center;
+width: 94%;
+}
+.rent-title{
+  
+ margin: 0 auto;
+  color: #01353E;
+  justify-self: center;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.rent-ul{
+
+  width: 300px;
+  list-style:none;
+}
+.rent-li{
+     font-family: 'RobotoCondensed-Regular';
+     font-size: 12px;
+  width: 80%;
+color: #242121;
+  margin-top:15px;
+}
+.rent-price{  
+  margin: 0 auto;
+   text-align: center;
+  color: #01353E;
+  font-size: 14px;
+ 
+  margin-top: 15px;
+justify-self: center;
+}
+.rent-price p{
+    margin: 0 auto;
+   text-align: center;
+   justify-self: center;
+}
+.rent-price span{
+margin-left: 9px;
+font-size: 15px;
+}
+.rent-card-standart{
+
+padding: 36px 18px  34px 18px  ;
+width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+
+.rent-card-all{
+ padding: 30px 17px  30px 17px  ;
+ width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+.rent-card-pro{
+ padding:  30px 17px  75px 17px   ;
+   width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+.contact{
+
+ margin:0 auto;
+}
+.contact-info{
+  margin: 0 auto;
+  margin-left: 20px;
+  width:90%;
+  height:100%;
+  background-color: #F8F8F8;
+
+}
+
+.contact-info-more{
+
+  line-height: 30px;
+  letter-spacing: 0.6px;
+  width: 300px;
+  height: 300px;
+font-family: 'RobotoCondensed-Regular';
+  font-size: 16px;
+padding: 7px 44px 27px 53px;
+ text-align: center;
+justify-self: center;
+text-align: center;
+
+}
+
+.contact-info-more p{
+  color: #242121;
+  margin-top: 18px;
+  width: 100%;
+   font-family: 'RobotoCondensed-Regular';
+  font-size: 14px;
+}
+.reqest-contact{
+height: 100%;
+  padding: 0 auto;
+    font-family: 'RobotoCondensed-Regular';
+  width:250px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+.contact-form{
+     font-family: 'RobotoCondensed-Regular';
+  font-size: 16px;
+width: 100%;
+margin: 0 auto;
+display:flex;
+flex-direction: column;
+}
+
+textarea{
+    align-content: center;
+  font-size: 16px;
+     font-family: 'RobotoCondensed-Regular';
+letter-spacing: 0.6px;
+  height: 154px;
+ overflow: auto;
+  resize: none;
+padding: 55px 0 98px 10px;
+  color: #00B2A0;
+    border: none;
+   border-bottom: solid 1px #DADADA;
+  
+}
+input{
+  letter-spacing: 0.6px;
+  font-size: 16px;
+     font-family: 'RobotoCondensed-Regular';
+padding: 20px 0 20px 10px;
+   border: none;
+   border-bottom: solid 1px #DADADA;
+    width: 100%;
+  color: #00B2A0;
+
+}
+.contact-button{
+     font-family: 'RobotoCondensed-Regular';
+  background-color: white;
+  font-size: 16px;
+  margin-top: 73px;
+  width: 139px;
+  height: 54px;
+border: 1px solid #C4C4C4;
+}
+.contact-button:hover{
+  background-color:#00b2a069;
+  cursor: pointer;
+}
+.contact-button:focus{
+  background-color:#00b2a0a1;
+  cursor: pointer;
+}
+::placeholder{
+    align-content: center;
+  letter-spacing: 0.6px;
+    font-size: 16px;
+     font-family: 'RobotoCondensed-Regular';
+  color: #00B2A0;
+}
+.over-footer {
+  
+  display: block;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+  }
+
+.over-footer-logo {
+   font-family: 'Raleway-Bold';
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  }
+
+.over-footer-logo img {
+  padding-right: 8px;
+  padding-bottom: 8px;
+  width: 30px; 
+  height: 30px; 
+}
+
+.li-one,
+.li-two,
+.li-three {
+  font-size: 16px; 
+  line-height: 1.3;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+
+.over-footer-li {
+     font-family: 'RobotoCondensed-Regular';
+  gap: 17px;
+}
+
+.footer {
+    font-family: 'RobotoCondensed-Light';
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-info img {
+  width: 30px;
+  height: 23px; 
+}
+}
+@media (max-width: 360px){
+  .header {
+    max-width: 360px;
+  }
+ 
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.rent{
+ font-family: 'RobotoCondensed-Regular';
+justify-self:center;
+  margin:0 auto;
+  width: 360px;
+}
+
+.subtitle{
+  
+  font-family: 'Raleway-Bold';
+  font-weight: bold;
+  color: #01353E;
+  width:90%;
+  height: 100%;
+  font-size: 24px;
+text-align: center;
+
+margin-bottom: 20px;
+  display:flex;
+align-content: center;
+}
+.subtitle p{  
+      font-family: 'Raleway-Bold';
+   font-size: 24px;
+  margin:0 auto;
+  width: 70%;
+}
+.rent-cards{
+margin: 0 auto;
+justify-content: center;
+width: 94%;
+}
+.rent-title{
+  
+ margin: 0 auto;
+  color: #01353E;
+  justify-self: center;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.rent-ul{
+
+  width: 300px;
+  list-style:none;
+}
+.rent-li{
+     font-family: 'RobotoCondensed-Regular';
+     font-size: 12px;
+  width: 80%;
+color: #242121;
+  margin-top:10px;
+}
+.rent-price{  
+    margin: 0 auto;
+   text-align: center;
+  color: #01353E;
+  font-size: 15px;
+ 
+  margin-top: 10px;
+justify-self: center;
+}
+.rent-price p{
+    margin: 0 auto;
+   text-align: center;
+   justify-self: center;
+}
+.rent-price span{
+margin-left: 9px;
+font-size: 15px;
+}
+
+.rent-card-standart{
+
+padding: 7px 21px 7px 20px   ;
+width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+
+.rent-card-all{
+  padding: 8px 33px 9px  20px   ;
+ width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+.rent-card-pro{
+  padding: 13px 26px  50px 26px   ;
+   width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+.contact{
+
+   margin:0 auto;
+}
+.contact-info{
+  margin: 0 auto;
+  margin-left: 20px;
+  width:90%;
+  height:100%;
+  background-color: #F8F8F8;
+ 
+}
+
+.contact-info-more{
+
+  line-height: 30px;
+  letter-spacing: 0.6px;
+  width: 300px;
+  height: 300px;
+font-family: 'RobotoCondensed-Regular';
+  font-size: 14px;
+padding: 7px 44px 27px 53px;
+ text-align: center;
+justify-self: center;
+text-align: center;
+
+}
+
+.contact-info-more p{
+  color: #242121;
+  margin-top: 18px;
+  width: 100%;
+   font-family: 'RobotoCondensed-Regular';
+  font-size: 14px;
+}
+.reqest-contact{
+height: 100%;
+  padding: 0 auto;
+    font-family: 'RobotoCondensed-Regular';
+  width:250px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+.contact-form{
+     font-family: 'RobotoCondensed-Regular';
+  font-size: 16px;
+width: 100%;
+margin: 0 auto;
+display:flex;
+flex-direction: column;
+}
+
+textarea{
+  font-size: 16px;
+     font-family: 'RobotoCondensed-Regular';
+letter-spacing: 0.6px;
+  height: 154px;
+ overflow: auto;
+  resize: none;
+    align-content: center;
+padding: 55px 0 78px 5px;
+  color: #00B2A0;
+    border: none;
+   border-bottom: solid 1px #DADADA;
+  
+}
+input{
+  letter-spacing: 0.6px;
+  font-size: 16px;
+     font-family: 'RobotoCondensed-Regular';
+padding: 20px 0 20px 5px;
+   border: none;
+   border-bottom: solid 1px #DADADA;
+    width: 100%;
+  color: #00B2A0;
+
+}
+.contact-button{
+     font-family: 'RobotoCondensed-Regular';
+  background-color: white;
+  font-size: 16px;
+  margin-top: 73px;
+  width: 139px;
+  height: 54px;
+border: 1px solid #C4C4C4;
+}
+.contact-button:hover{
+  background-color:#00b2a069;
+  cursor: pointer;
+}
+.contact-button:focus{
+  background-color:#00b2a0a1;
+  cursor: pointer;
+}
+::placeholder{
+    align-content: center;
+  letter-spacing: 0.6px;
+    font-size: 16px;
+     font-family: 'RobotoCondensed-Regular';
+  color: #00B2A0;
+}
+.over-footer {
+  
+  display: block;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+  }
+
+.over-footer-logo {
+   font-family: 'Raleway-Bold';
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  }
+
+.over-footer-logo img {
+  padding-right: 8px;
+  padding-bottom: 8px;
+  width: 30px; 
+  height: 30px; 
+}
+
+.li-one,
+.li-two,
+.li-three {
+  font-size: 16px; 
+  line-height: 1.3;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+
+.over-footer-li {
+     font-family: 'RobotoCondensed-Regular';
+  gap: 17px;
+}
+
+.footer {
+    font-family: 'RobotoCondensed-Light';
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-info img {
+  width: 30px;
+  height: 23px; 
+}
+}
+@media (max-width: 350px){
+  .header {
+    
+    max-width: 350px;
+  }
+ 
+
+body {
+  
+  width: 100%;
+  margin: 0 auto;
+}
+
+.rent{
+ font-family: 'RobotoCondensed-Regular';
+justify-self:center;
+   margin:0 auto;
+  width: 320px;
+}
+
+.subtitle{
+ 
+  font-family: 'Raleway-Bold';
+  font-weight: bold;
+  color: #01353E;
+  width:80%;
+  height: 100%;
+  font-size: 24px;
+text-align: center;
+
+margin-bottom: 20px;
+  display:flex;
+align-content: center;
+}
+.subtitle p{  
+      font-family: 'Raleway-Bold';
+   font-size: 24px;
+  margin:0 auto;
+  width: 80%;
+}
+.rent-cards{
+
+margin: 0 auto;
+justify-content: center;
+width: 80%;
+}
+.rent-title{
+  margin: 0 auto;
+ 
+  color: #01353E;
+  justify-self: center;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.rent-ul{
+
+  width: 250px;
+  list-style:none;
+}
+.rent-li{
+     font-family: 'RobotoCondensed-Regular';
+     font-size: 12px;
+  width: 80%;
+color: #242121;
+  margin-top:10px;
+}
+.rent-price{  
+    margin: 0 auto;
+   text-align: center;
+  color: #01353E;
+  font-size: 15px;
+ 
+  margin-top: 10px;
+justify-self: center;
+}
+.rent-price p{
+    margin: 0 auto;
+   text-align: center;
+   justify-self: center;
+}
+.rent-price span{
+margin-left: 9px;
+font-size: 13px;
+}
+.rent-card-standart{
+
+        padding: 7px 21px 7px 20px;
+width: 100%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+
+.rent-card-all{
+  padding: 8px 33px 9px  20px   ;
+ width: 100%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+.rent-card-pro{
+  padding: 13px 26px  50px 26px   ;
+   width: 100%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+.contact{
+
+ margin:0 auto;
+}
+.contact-info{
+  margin: 0 auto;
+  margin-left: 20px;
+  width:90%;
+  height:100%;
+  background-color: #F8F8F8;
+
+}
+
+.contact-info-more{
+
+  line-height: 30px;
+  letter-spacing: 0.6px;
+  width: 290px;
+  height: 290px;
+font-family: 'RobotoCondensed-Regular';
+  font-size: 24px;
+padding: 7px 40px 27px 53px;
+ text-align: center;
+justify-self: center;
+text-align: center;
+
+}
+
+.contact-info-more p{
+  color: #242121;
+  margin-top: 18px;
+  width: 100%;
+   font-family: 'RobotoCondensed-Regular';
+  font-size: 14px;
+}
+.reqest-contact{
+
+  padding: 0 auto;
+    font-family: 'RobotoCondensed-Regular';
+  width:250px;
+    height: 100%;
+  font-size: 16px;
+  margin: 0 auto;
+}
+.contact-form{
+     font-family: 'RobotoCondensed-Regular';
+  font-size: 16px;
+width: 100%;
+margin: 0 auto;
+display:flex;
+flex-direction: column;
+}
+
+textarea{
+  font-size: 16px;
+     font-family: 'RobotoCondensed-Regular';
+letter-spacing: 0.6px;
+  height: 154px;
+    align-content: center;
+ overflow: auto;
+  resize: none;
+  padding: 55px 0 78px 5px;
+  color: #00B2A0;
+    border: none;
+   border-bottom: solid 1px #DADADA;
+  
+}
+input{
+  letter-spacing: 0.6px;
+  font-size: 16px;
+     font-family: 'RobotoCondensed-Regular';
+padding: 20px 0 20px 5px;
+   border: none;
+   border-bottom: solid 1px #DADADA;
+    width: 100%;
+  color: #00B2A0;
+
+}
+.contact-button{
+     font-family: 'RobotoCondensed-Regular';
+  background-color: white;
+  font-size: 16px;
+  margin-top: 73px;
+  width: 139px;
+  height: 54px;
+border: 1px solid #C4C4C4;
+}
+.contact-button:hover{
+  background-color:#00b2a069;
+  cursor: pointer;
+}
+.contact-button:focus{
+  background-color:#00b2a0a1;
+  cursor: pointer;
+}
+::placeholder{
+    align-content: center;
+  letter-spacing: 0.6px;
+    font-size: 16px;
+     font-family: 'RobotoCondensed-Regular';
+  color: #00B2A0;
+}
+.over-footer {
+  
+  display: block;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+  }
+
+.over-footer-logo {
+   font-family: 'Raleway-Bold';
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  }
+
+.over-footer-logo img {
+  padding-right: 8px;
+  padding-bottom: 8px;
+  width: 30px; 
+  height: 30px; 
+}
+
+.li-one,
+.li-two,
+.li-three {
+  font-size: 16px; 
+  line-height: 1.3;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+
+.over-footer-li {
+     font-family: 'RobotoCondensed-Regular';
+  gap: 17px;
+}
+
+.footer {
+    font-family: 'RobotoCondensed-Light';
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-info img {
+  width: 30px;
+  height: 23px; 
+}
+}
+@media (max-width: 320px){
+  .header {
+    max-width: 320px;
+  }
+ 
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.rent{
+ font-family: 'RobotoCondensed-Regular';
+justify-self:center;
+  margin:0 auto;
+  width: 320px;
+}
+
+.subtitle{
+  
+  font-family: 'Raleway-Bold';
+  font-weight: bold;
+  color: #01353E;
+  width:80%;
+ height: 100%;
+  font-size: 24px;
+text-align: center;
+
+margin-bottom: 20px;
+  display:flex;
+align-content: center;
+}
+.subtitle p{  
+  
+      font-family: 'Raleway-Bold';
+   font-size: 24px;
+  margin:0 auto;
+  width: 80%;
+}
+.rent-cards{
+margin: 0 auto;
+
+justify-content: center;
+width: 90%;
+}
+.rent-title{
+  
+ margin: 0 auto;
+  color: #01353E;
+  justify-self: center;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.rent-ul{
+
+  width: 240px;
+  list-style:none;
+}
+.rent-li{
+     font-family: 'RobotoCondensed-Regular';
+     font-size: 12px;
+  width: 80%;
+color: #242121;
+  margin-top:10px;
+}
+.rent-price{  
+   margin: 0 auto;
+   text-align: center;
+  color: #01353E;
+  font-size: 12px;
+ 
+  margin-top: 10px;
+justify-self: center;
+}
+.rent-price p{
+    margin: 0 auto;
+   text-align: center;
+   justify-self: center;
+}
+.rent-price span{
+margin-left: 9px;
+font-size: 12px;
+}
+.rent-card-standart{
+
+padding: 7px 21px 7px 10px   ;
+width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+
+.rent-card-all{
+  padding: 8px 33px 9px  10px   ;
+ width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+.rent-card-pro{
+  padding: 13px 26px  30px 26px   ;
+   width: 90%;
+  height:100%;
+  background-color:#F8F8F8;
+}
+.contact{
+
+ margin:0 auto;
+}
+.contact-info{
+  margin: 0 auto;
+  margin-left: 20px;
+  width:90%;
+
+  background-color: #F8F8F8;
+
+}
+
+.contact-info-more{
+
+  line-height: 21px;
+  letter-spacing: 0.6px;
+  width: 290px;
+  height: 270px;
+font-family: 'RobotoCondensed-Regular';
+  font-size: 24px;
+padding: 7px 40px 27px 53px;
+ text-align: center;
+justify-self: center;
+text-align: center;
+
+}
+
+.contact-info-more p{
+  color: #242121;
+  margin-top: 18px;
+  width: 90%;
+   font-family: 'RobotoCondensed-Regular';
+  font-size: 14px;
+}
+.reqest-contact{
+
+  padding: 0 auto;
+    font-family: 'RobotoCondensed-Regular';
+  width:230px;
+  height: 100%;
+  font-size: 16px;
+  margin: 0 auto;
+}
+.contact-form{
+
+     font-family: 'RobotoCondensed-Regular';
+  font-size: 16px;
+width: 100%;
+margin: 0 auto;
+display:flex;
+flex-direction: column;
+}
+
+textarea{
+  font-size: 16px;
+     font-family: 'RobotoCondensed-Regular';
+letter-spacing: 0.6px;
+  height: 144px;
+ overflow: auto;
+   align-content: center;
+  resize: none;
+  padding: 55px 0 78px 5px;
+  color: #00B2A0;
+    border: none;
+   border-bottom: solid 1px #DADADA;
+  
+}
+input{
+  letter-spacing: 0.6px;
+  font-size: 16px;
+     font-family: 'RobotoCondensed-Regular';
+  padding: 20px 0 20px 5px;
+   border: none;
+   border-bottom: solid 1px #DADADA;
+    width: 100%;
+  color: #00B2A0;
+
+}
+.contact-button{
+     font-family: 'RobotoCondensed-Regular';
+  background-color: white;
+  font-size: 16px;
+  margin-top: 73px;
+  width: 139px;
+  height: 54px;
+border: 1px solid #C4C4C4;
+}
+.contact-button:hover{
+  background-color:#00b2a069;
+  cursor: pointer;
+}
+.contact-button:focus{
+  background-color:#00b2a0a1;
+  cursor: pointer;
+}
+::placeholder{
+    align-content: center;
+  letter-spacing: 0.6px;
+    font-size: 16px;
+     font-family: 'RobotoCondensed-Regular';
+  color: #00B2A0;
+}
+.over-footer {
+  
+  display: block;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+  }
+
+.over-footer-logo {
+   font-family: 'Raleway-Bold';
+  font-size: 25px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  }
+
+.over-footer-logo img {
+  padding-right: 8px;
+  padding-bottom: 8px;
+  width: 30px; 
+  height: 30px; 
+}
+
+.li-one,
+.li-two,
+.li-three {
+  font-size: 14px; 
+  line-height: 1.3;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+
+.over-footer-li {
+     font-family: 'RobotoCondensed-Regular';
+  gap: 17px;
+}
+
+.footer {
+    font-family: 'RobotoCondensed-Light';
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-info img {
+  width: 30px;
+  height: 23px; 
+}
+}
