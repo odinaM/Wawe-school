@@ -184,7 +184,6 @@ padding: 28px 89px 73px 89px;
  text-align: center;
 justify-self: center;
 text-align: center;
-  margin: 0 auto;
 
 }
 .contact-info-more p{
@@ -364,8 +363,9 @@ body {
 .rent{
  font-family: 'RobotoCondensed-Regular';
 justify-self:center;
-margin:0 auto;
-  width: 768px;
+ width: 100%;
+  max-width: 1024px; 
+  margin: 0 auto;
 }
 
 .subtitle{
@@ -373,7 +373,7 @@ margin:0 auto;
   font-family: 'Raleway-Bold';
   font-weight: bold;
   color: #01353E;
-  width:100%;
+  width:80%;
   height: 56px;
   font-size: 44px;
 text-align: center;
@@ -391,7 +391,9 @@ align-content: center;
 }
 .rent-cards{
 margin: 0 auto;
-justify-content: center;
+display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 width: 84%;
 }
 .rent-title{
@@ -405,7 +407,7 @@ width: 84%;
 }
 .rent-ul{
 
-  width: 750px;
+  width: 100%;
   list-style:none;
 }
 .rent-li{
@@ -633,8 +635,9 @@ body{
 .rent{
  font-family: 'RobotoCondensed-Regular';
 justify-self:center;
-   margin:0 auto;
-  width: 768px;
+     width: 100%;
+  max-width: 768px; 
+  margin: 0 auto;
 }
 
 .subtitle{
@@ -659,7 +662,9 @@ align-content: center;
 }
 .rent-cards{
 margin: 0 auto;
-justify-content: center;
+display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 width: 84%;
 }
 .rent-title{
@@ -673,7 +678,7 @@ width: 84%;
 }
 .rent-ul{
 
-  width: 420px;
+  width: 100%;
   list-style:none;
 }
 .rent-li{
@@ -891,8 +896,9 @@ body {
 .rent{
  font-family: 'RobotoCondensed-Regular';
 justify-self:center;
-   margin:0 auto;
-  width: 100%;
+    width: 100%;
+  max-width: 500px; 
+  margin: 0 auto;
 }
 
 .subtitle{
@@ -918,7 +924,9 @@ align-content: center;
 }
 .rent-cards{
 margin: 0 auto;
-justify-content: center;
+display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 width: 84%;
 }
 .rent-title{
@@ -1153,8 +1161,9 @@ body {
 .rent{
  font-family: 'RobotoCondensed-Regular';
 justify-self:center;
-     margin:0 auto;
-  width: 425px;
+      width: 100%;
+  max-width: 425px; 
+  margin: 0 auto;
 }
 
 .subtitle{
@@ -1179,7 +1188,9 @@ align-content: center;
 }
 .rent-cards{
 margin: 0 auto;
-justify-content: center;
+display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 width: 84%;
 }
 .rent-title{
@@ -1193,7 +1204,7 @@ width: 84%;
 }
 .rent-ul{
 
-  width: 350px;
+  width: 100%;
   list-style:none;
 }
 .rent-li{
@@ -1412,8 +1423,9 @@ body {
 .rent{
  font-family: 'RobotoCondensed-Regular';
 justify-self:center;
-    margin:0 auto;
-  width: 375px;
+     width: 100%;
+  max-width: 375px; 
+  margin: 0 auto;
 }
 
 .subtitle{
@@ -1438,7 +1450,9 @@ align-content: center;
 }
 .rent-cards{
 margin: 0 auto;
-justify-content: center;
+display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 width: 94%;
 }
 .rent-title{
@@ -1452,7 +1466,7 @@ width: 94%;
 }
 .rent-ul{
 
-  width: 300px;
+   width: 100%;
   list-style:none;
 }
 .rent-li{
@@ -1670,8 +1684,9 @@ body {
 .rent{
  font-family: 'RobotoCondensed-Regular';
 justify-self:center;
-  margin:0 auto;
-  width: 360px;
+ width: 100%;
+  max-width: 360px; 
+  margin: 0 auto;
 }
 
 .subtitle{
@@ -1696,7 +1711,9 @@ align-content: center;
 }
 .rent-cards{
 margin: 0 auto;
-justify-content: center;
+display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 width: 94%;
 }
 .rent-title{
@@ -1710,7 +1727,7 @@ width: 94%;
 }
 .rent-ul{
 
-  width: 300px;
+  width: 100%;
   list-style:none;
 }
 .rent-li{
@@ -1930,8 +1947,9 @@ body {
 .rent{
  font-family: 'RobotoCondensed-Regular';
 justify-self:center;
-   margin:0 auto;
-  width: 320px;
+   width: 100%;
+  max-width: 350px; 
+  margin: 0 auto;
 }
 
 .subtitle{
@@ -1957,7 +1975,9 @@ align-content: center;
 .rent-cards{
 
 margin: 0 auto;
-justify-content: center;
+display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 width: 80%;
 }
 .rent-title{
@@ -1971,7 +1991,7 @@ width: 80%;
 }
 .rent-ul{
 
-  width: 250px;
+  width: 100%;
   list-style:none;
 }
 .rent-li{
@@ -2190,8 +2210,9 @@ body {
 .rent{
  font-family: 'RobotoCondensed-Regular';
 justify-self:center;
-  margin:0 auto;
-  width: 320px;
+  width: 100%;
+  max-width: 320px; 
+  margin: 0 auto;
 }
 
 .subtitle{
@@ -2199,7 +2220,7 @@ justify-self:center;
   font-family: 'Raleway-Bold';
   font-weight: bold;
   color: #01353E;
-  width:80%;
+  width:30%;
  height: 100%;
   font-size: 24px;
 text-align: center;
@@ -2217,9 +2238,12 @@ align-content: center;
 }
 .rent-cards{
 margin: 0 auto;
-
-justify-content: center;
-width: 90%;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .rent-title{
   
@@ -2232,7 +2256,7 @@ width: 90%;
 }
 .rent-ul{
 
-  width: 240px;
+  width: 100%;
   list-style:none;
 }
 .rent-li{
@@ -2262,14 +2286,14 @@ font-size: 12px;
 }
 .rent-card-standart{
 
-padding: 7px 21px 7px 10px   ;
+ padding: 13px 26px  10px 26px   ;
 width: 90%;
   height:100%;
   background-color:#F8F8F8;
 }
 
 .rent-card-all{
-  padding: 8px 33px 9px  10px   ;
+   padding: 13px 26px  20px 26px   ;
  width: 90%;
   height:100%;
   background-color:#F8F8F8;
@@ -2436,5 +2460,4 @@ border: 1px solid #C4C4C4;
   width: 30px;
   height: 23px; 
 }
-
 }
