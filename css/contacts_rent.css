@@ -184,6 +184,7 @@ padding: 28px 89px 73px 89px;
  text-align: center;
 justify-self: center;
 text-align: center;
+  margin: 0 auto;
 
 }
 .contact-info-more p{
@@ -2435,4 +2436,5 @@ border: 1px solid #C4C4C4;
   width: 30px;
   height: 23px; 
 }
+
 }
